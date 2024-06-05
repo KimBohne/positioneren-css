@@ -5,12 +5,39 @@
 body {
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
-/*lichtgrijs #F7F7F7 donkergrijs #d3d3d3*/
+/**!*lichtgrijs #F7F7F7 donkergrijs #d3d3d3*! font-family: "Poppins", sans-serif;*!*/
 .recipe-card {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
 }
+
+.recipe-card {
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+.recipe-card img {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -4px;
+}
+
+.recipe-card h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-container {
+    font-family: "Poppins", sans-serif;
+    background-color: lightgrey;
+}
+
+
+/* Opti
+}
+
+
 
 /* - Vul dit document aan met jouw eigen css! - */
